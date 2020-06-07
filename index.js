@@ -29,7 +29,7 @@ function defineCard() {
   var srcName = document.querySelector("div.cards").style.backgroundImage;
 
   var num = srcName[18]; //18th char is note num
-  alert(num);
+  alert(srcName);
   var noteName;
   if (num === '1') {
     noteName = "do";

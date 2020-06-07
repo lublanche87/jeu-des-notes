@@ -29,7 +29,7 @@ function defineCard() {
   var srcName = document.querySelector("div.cards").style.backgroundImage;
 
   var num = srcName[18]; //18th char is note num
-  console.log(num);
+  alert(num);
   var noteName;
   if (num === '1') {
     noteName = "do";
@@ -71,10 +71,10 @@ function mouseClick() {
 }
 
 
-function currentLevel() {
-  var level = document.querySelector("p.mylevel").textContent;
-  return (level);
-}
+// function currentLevel() {
+//   var level = document.querySelector("p.mylevel").textContent;
+//   return (level);
+// }
 
 
 

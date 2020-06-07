@@ -1,0 +1,113 @@
+body {
+  background-color: #d291bc;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Pacifico', cursive;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.heading{
+    padding: 1%;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.level{
+
+  width:10%;
+  border-style: solid;
+  border-radius: 3rem;
+  border-color: #0000;
+  background-color: #fa9191;
+  display: inline-block;
+  position: absolute;
+
+  left:15%;
+  top: 7%;
+
+}
+.level-up{
+  width: 3rem;
+  position: absolute;
+  left:16%;
+  top:18%;
+  z-index: 1;
+  visibility: hidden;
+}
+.level-text{
+
+}
+.level-value{
+ left:25%;
+}
+.mylevel{
+  font-size:2.5rem;
+}
+.cards{
+  position:relative;
+  border-radius: 2em;
+  width:350px;
+  height: 300px;
+  background-image: url("cards/level1/1.png");
+  background-size: 350px 300px;
+  margin:2% 25% 2% 35%;
+}
+.score{
+  width:20%;
+  display: inline-block;
+  left:40%;
+  position:absolute;
+
+}
+.level-star{
+ font-size: 2rem;
+ color: red;
+}
+.star{
+  font-size: 2rem;
+}
+
+.button{
+  width:10%;
+  border-radius: 4em;
+  display: inline-block;
+  margin-top: 10%;
+  position: relative;
+  margin-bottom: 3%;
+}
+.button:hover{
+  border-style: solid;
+  border-width: thick;
+}
+.button-do{
+  background-color: #d63447;
+}
+.button-re{
+  background-color: #f57b51;
+}
+.button-mi{
+  background-color: #fcf876;
+}
+.button-fa{
+  background-color: #a8df65;
+}
+.button-sol{
+  background-color: #cff1ef;
+}
+.button-la{
+  background-color: #00bcd4;
+}
+.button-si{
+  background-color: #fbcffc;
+}

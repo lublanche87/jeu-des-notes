@@ -27,9 +27,10 @@ function setRandomCards() {
 function defineCard() {
 
   var srcName = document.querySelector("div.cards").style.backgroundImage;
+  var srcLength = srcName.length;
 
-  var num = srcName[18]; //18th char is note num
-  alert(srcName);
+  var num = srcName[srcLength - 7]; //note number in url
+  // alert(num);
   var noteName;
   if (num === '1') {
     noteName = "do";
